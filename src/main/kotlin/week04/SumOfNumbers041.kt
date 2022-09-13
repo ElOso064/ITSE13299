@@ -2,7 +2,7 @@ package week04
 
 fun main() {
 
-    var i = 0
+    var i = 1
     while (i < 8){
         i++
         println(i)
