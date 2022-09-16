@@ -2,7 +2,7 @@ package week04
 // Josue Barajas - September 15th - 04.5 Assignment
 fun main() {
 
- val myNumber = (0  .. 10).random()
+ val myNumber = (0 .. 10).random()
 
     println("Guess a number 1-10:")
     val guess = Integer.valueOf(readLine())

@@ -1,7 +1,8 @@
 fun main() {
-
+// PSEUDOCODE ask user to input a number 1-10
     print("Enter an number between 1-10 >>")
     val userInteger = Integer.valueOf(readLine())
+    // PSEUDOCODE after user inputs a #, we write the code to represent the Roman Numeral for each number
     if (userInteger == 1){
         println("1 is I in Roman Numerals!") }
     if (userInteger == 2){

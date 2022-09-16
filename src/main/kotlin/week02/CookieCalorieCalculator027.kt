@@ -10,7 +10,7 @@ fun main(){
     println("Please enter amount of cookies eaten: ")
     val cookies = Integer.valueOf(readLine())
     var calories = caloriesPerCookie*cookies
-    println("Your calorie intake was: $calories")
+    println("Your calorie intake was: $calories calories.")
 
 
 
