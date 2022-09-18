@@ -1,16 +1,47 @@
 fun main() {
+    // PSEUDOCODE Ask user to input 3 Names and their running time
     println("Please enter 1st runner Name >> ")
-    val firstRunnerName = readLine()
+    var firstRunnerName = readLine()
     println("Please enter 2nd runners Name >> ")
-    val secondRunnerName = readLine()
+    var secondRunnerName = readLine()
     println("Please enter 3rd runners Name >> ")
-    val thirdRunnerName = readLine()
-    println("Please enter 1st runners time in minutes >> ")
-    val firstRunnerTime = Integer.valueOf((readLine()))
-    println("Please enter 2nd runners time in minutes >> ")
-    val secondRunnersTime = Integer.valueOf((readLine()))
-    println("Please enter 3rd runners time in minutes >> ")
-    val thirdRunnersTime = Integer.valueOf((readLine()))
+    var thirdRunnerName = readLine()
+    println("Please enter 1st runners time in full minutes >> ")
+    var firstRunnerTime = Integer.valueOf((readLine()))
+    println("Please enter 2nd runners time in full minutes >> ")
+    var secondRunnerTime = Integer.valueOf((readLine()))
+    println("Please enter 3rd runners time in full minutes >> ")
+    var thirdRunnerTime = Integer.valueOf((readLine()))
 
+    // PSEUDOCODE Create conditional if statements to put the runnners times in order.
+    if (firstRunnerTime > secondRunnerTime){
+        val holderTime = firstRunnerTime
+        firstRunnerTime = secondRunnerTime
+        secondRunnerTime = holderTime
+        val holderName = firstRunnerName
+        firstRunnerName = secondRunnerName
+        secondRunnerName = holderName
+    }
+    if (secondRunnerTime > thirdRunnerTime){
+      val holderTime = secondRunnerTime
+      secondRunnerTime = thirdRunnerTime
+      secondRunnerTime = holderTime
+        val holderName = secondRunnerName
+        secondRunnerName = thirdRunnerName
+        secondRunnerName = holderName
+    }
+    if (firstRunnerTime > secondRunnerTime){
+        val holderTime = firstRunnerTime
+        firstRunnerTime = secondRunnerTime
+        secondRunnerTime = holderTime
+        val holderName = firstRunnerName
+        firstRunnerName = secondRunnerName
+        secondRunnerName = holderName
+
+    }
+    // PSEDUOCODE display the runners time in order.
+    println("$firstRunnerName finished first with $firstRunnerTime minutes!")
+    println("$secondRunnerName finished second with $secondRunnerTime minutes.")
+    println("$thirdRunnerName finished last with $thirdRunnerTime minutes.")
 }
 
