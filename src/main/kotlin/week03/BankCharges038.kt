@@ -9,10 +9,10 @@ fun main() {
         if (checksWritten <= 19) {
             total = baseFee + (checksWritten*0.10)
         }
-        if (checksWritten >= 20 ){
+        if (checksWritten >= 20 && checksWritten <= 39){
             total = baseFee + (checksWritten*0.08)
         }
-        if (checksWritten >= 40){
+        if (checksWritten >= 40 && checksWritten <= 59){
              total = baseFee + (checksWritten*0.06)
         }
         if (checksWritten >= 60){
