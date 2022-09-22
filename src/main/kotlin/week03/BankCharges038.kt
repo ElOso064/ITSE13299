@@ -1,5 +1,5 @@
 package week03
-    // Josue Barajas - Assignment 03.8 - September 18 2022
+    // Josue Barajas - Assignment 03.8 - September 18, 2022
 fun main() {
     val baseFee = 10.0
     println("Please the amount of checks written for this month.")
