@@ -13,7 +13,7 @@ fun main(){
                 println("Bingo! You guessed it right!")
                 correctCount ++
             }  else {
-                println("Try again, the correct color was $color")
+                println("Try again, the correct color was $color. Better luck next time")
             }
         }
 }
