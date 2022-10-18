@@ -1,5 +1,5 @@
 package week05
-// Josue Barajas - 05.1 Assignment - October 18th, 2022
+// Josue Barajas - 05.1 Assignment - October 18, 2022
     fun main() {
     println(isPrime(13))
     }
